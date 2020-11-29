@@ -1,0 +1,11 @@
+<html>
+  <body style="margin: 0px">
+    <div>
+      <img id="img" style="height: 100%; width: 100%; object-fit: contain" />
+    </div>
+    <script>
+      const img = document.getElementById("img");
+      img.src = location.hash.substring(1);
+    </script>
+  </body>
+</html>
